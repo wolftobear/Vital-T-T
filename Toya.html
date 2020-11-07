@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>VitalLogisticsandTrucking</title>
+
+    <lang=eng>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="toya.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+ </head>
+
+<body>
+
+
+<div class="loader">
+        <img src="loading.gif"/>
+</div>
+
+<div id="header">
+
+        <img src="logo2.png" id="logo">
+
+</div>
+
+<div id="video">
+
+        <video autoplay muted loop id="myVideo">
+                <source src="train.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+        </video>
+
+        <div id="welcome">
+                <p style="color:rgb(80,0,20);">We take the load off your mind</p>
+                <div id="footboard2"></div>
+                <p style="color:rgb(80,0,20);">Find out more about us</p>
+                <button id="welcomebutton" onclick="window.location.href='#section1'">Find out</button>
+        </div>
+        
+</div>
+
+<div id="apply">
+        <p style="color:black;">work with us. work for us today.</p>
+                <button id="applytoday" onclick="alert('Coming soon')">
+                        Apply today
+                </button>
+</div>
+
+
+
+<div id="section1">
+
+        <button id="butt1" class="tabs" onclick="change()" onclick="colorswitch()">
+
+             <h2 class="images"id="image">About</h2>
+
+        </button>
+        <button id="butt2" class="tabs" onclick="change2()">
+
+                <h2 class="images"id="image">Services</h2>
+
+
+        </button>
+        <button id="butt3" class="tabs"onclick="change3()">
+
+                <h2 class="images"id="image">Contact</h2>
+        </button>
+        <button id="butt4" class="tabs"onclick="change4()">
+
+                <h2 class="images"id="image">Connect</h2>
+
+
+        </button>
+
+</div>
+
+
+<div id="container">
+      
+
+        <div id="section2">
+                <div class="bricks" id="brick">
+                        <div id="author">
+
+                        </div> 
+                <div id="whotext">
+                        <h2>Who are We?</h2>
+                </div>
+                        <div class="left">
+                                <p id="lefttext">Vital Logistics & Transport is a professional freight dispatch firm providing an 
+                                        opportunity for Independent owner operators with authority and small fleet owners
+                                         to run independently while providing maximum freight selection and  highest level
+                                          of support.​<br><br>
+                                          As a brand new carrier who just received their MC Authority or 
+                                          planning to do so, it is very important to ensure that your truck or trucks
+                                           are running consistently generating revenue every day for you and your business.
+                                           However, as you may have already discovered many dispatch firms that will
+                                        only
+                                         work with carriers who have been in business for at least 6 month or more. 
+                                         There is a logical explanation for this. You see, there are a lot of brokers 
+                                         who will not take a chance by booking a load with a newly registered carrier 
+                                         and risking potential cargo loss or damaged.  No worries, Vital Logistics and 
+                                        Transport has you covered and we will get you loaded, well connect with those
+                                        shippers/brokers who will work with a newly registered carrier. Here at Vital 
+                                        Logistics & Transport  we believe that everyone has to start somewhere! 
+                                </p>
+                        </div>
+                </div>
+
+                <div class="bricks" id="brick2">
+                        <div id="service"></div>
+                        <h2 id="servicename">Our Services</h2>
+                        <ul class="services">
+                                <li>Freight dispatching</li><br>
+                                <li>Consulting</li><br>
+                                <li>Billing & Invoicing</li><br>
+                                <li>Administrative Work/Back Office</li><br>
+                                <li>24/7 On-Call Service</li><br>
+                        </ul>
+
+
+                </div>
+
+                <div class="bricks" id="brick3">
+                        <div class="contact">
+                                <h2>Contact</h2>
+                        </div>
+                                <div id="line"></div>
+                                <div class="bothC" id="leftC">
+                                        <a href="229-573-0132">
+                                                <p>
+                                                229-573-0132
+                                                </p>
+                                         </a>
+                                        <p>Hours:24/7</p>
+                                        <p>Atlanta, Ga</p>
+                                </div>
+                                
+                                <div class="bothC" id="rightC">
+                                        <form action="lscoleman35@gmail.com" id="inquiry" enctype="text/plain">
+                                                <label for="fname">First name:</label><br>
+                                                <input placeholder="First name" type="text" id="fname" name="fname"><br>
+                                                <label for="lname">Last name:</label><br>
+                                                <input placeholder="Last name"type="text" id="lname" name="lname"><br>
+                                                <label for="email">E-Mail:</label><br>
+                                                <input placeholder="E-Mail"type="text"id="E-Mail"name="email"><br>
+                                                <label for="message">Send your thoughts</label><br>
+                                                <input style="height: 1.5in;width: 80%;" placeholder="Send your thoughts and experience. Ask us questions too....."type="text"id="message"name="message"><br>
+                                                <input id="submit"style="height:2rem;width:40%;"type="submit"placeholder="submit">
+                                        </form>
+                                </div>
+                </div>
+
+                <div class="bricks" id="brick4">
+                        <h2>Follow us to get better connected</h2>
+                        <div id="social">
+                                <img onclick="window.location.href=''" id="socialmedia1"class="media"src="instagram.png">
+                                <img onclick="window.location.href=''" id="socialmedia2" class="media"src="facebook.png">
+                                <img onclick="window.location.href=''" id="socialmedia3" class="media"src="gmail.png">
+                                <img onclick="window.location.href=''"id="socialmedia4" class="media"src="twitter.png">
+                        </div>
+                        <p id="mediawords"></p>
+                </div>
+                <div>
+        </div>
+
+
+
+
+</div>
+
+</div>
+
+
+
+<script src="toya.js">
+</script>      
+
+<footer>
+
+        <p>Copyright © 2020 Vital Logistics & Transport - All Rights Reserved.</p>
+        <div id="footboard"></div>
+        <p>Made by Johnathan Watson</p>
+
+
+</footer>
+
+</body>
+
+
+</html>
